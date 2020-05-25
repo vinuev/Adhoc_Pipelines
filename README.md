@@ -1,8 +1,6 @@
-# AIR - Distributed Dataflow Processing with Asynchronous Iterative Routing
+# Ad-hoc Pipeline
 
-AIR engine is designed from scratch in C++ using the Message Passing Interface (MPI), pthreads for multithreading, and is directly deployed on top of a common HPC workload manager such as SLURM. AIR implements a light-weight, dynamic sharding protocol (referred to as "Asynchronous Iterative Routing"), which facilitates a direct and asynchronous communication among all client nodes and thereby completely avoids the overhead induced by the control flow with a master node that may otherwise form a performance bottleneck. 
-
-A preprint of the paper based on this work can be found here: https://arxiv.org/pdf/2001.00164.pdf
+Here, you will find implementations of various streaming-benchmark dataflows, called ad-hoc pipelines, in C++ using the Message Passing Interface (MPI), pthreads for multithreading, and they can be directly deployed on top of a common HPC workload manager such as SLURM. 
 
 Build & Run:
 ------------
