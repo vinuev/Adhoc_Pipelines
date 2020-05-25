@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AIR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vinu.venugopal/Documents/ULProjects/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vinu.venugopal/Documents/ULProjects/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vinu.venugopal/Documents/ULProjects/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR">
+				<Option output="/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/include"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/include/json"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/configuration"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/serialization"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 AIR"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR/fast">
+				<Option output="/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/include"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/include/json"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/configuration"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/serialization"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo"/>
+					<Add directory="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 AIR/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/vinu.venugopal/Documents/ULProjects/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching/Map.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching/Map.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching/Reduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/batching/Reduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector/BinCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector/BinCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector/RowCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/collector/RowCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication/Message.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication/Message.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication/Window.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/communication/Window.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/configuration/HashConfig.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/BinConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/BinConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/PartRowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/PartRowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/RowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/connector/RowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow/Dataflow.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow/Dataflow.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow/Vertex.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/dataflow/Vertex.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/Function.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/Function.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/SquareFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/SquareFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/SumFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/function/SumFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input/FileInput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input/FileInput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input/Input.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/input/Input.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/main/main.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output/FileOutput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output/FileOutput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output/Output.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/output/Output.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning/Hash.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning/Hash.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning/PairPartition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/partitioning/Partition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Aggr.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Aggr.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Attribute.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Attribute.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Cond.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Cond.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Relation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Relation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Schema.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/Schema.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/SortAggregation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/SortAggregation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/SortMergeJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/relational/SortMergeJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/AggregatorCount.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/AggregatorCount.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/EventCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/EventCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/EventGenerator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/scb/EventGenerator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/serialization/Serialization.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/serialization/Serialization.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/MapReduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/MapReduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/SCB.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/SCB.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/StreamingTest.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/StreamingTest.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/TPCH.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/TPCH.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/WinAgg.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/WinAgg.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/YSB.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/YSB.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/YSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/usecases/YSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg/EventSharder.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg/EventSharder.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg/WindowedCounter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/winagg/WindowedCounter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventFilter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventFilter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventGenerator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/EventGenerator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/FullAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/FullAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/PartialAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/PartialAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/SHJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo/SHJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/EventFilter_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/EventFilter_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/FullAggregator_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/FullAggregator_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/WinJoinYSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/src/yahoo_m/WinJoinYSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/Users/vinu.venugopal/Documents/ULProjects/AIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
